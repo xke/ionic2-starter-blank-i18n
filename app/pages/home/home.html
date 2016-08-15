@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{'title' | translate}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  {{'subtitle' | translate}}
+  <p [innerHtml]="'docs' | translate: { link: 'http://ionicframework.com/docs/v2' }"></p>
+</ion-content>
