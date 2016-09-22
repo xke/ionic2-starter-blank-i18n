@@ -8,7 +8,7 @@ To use this template simply clone the repository and run npm install
 ```bash
 $ git clone https://github.com/aoki-sora/ionic2-starter-blank-i18n.git
 $ cd ionic2-starter-tabs-i18n
-$ cd npm install
+$ npm install
 $ ionic platform add ios
 $ ionic run ios
 ```
