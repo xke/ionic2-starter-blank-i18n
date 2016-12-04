@@ -13,5 +13,13 @@ $ ionic platform add ios
 $ ionic run ios
 ```
 
-Substitute ios for android if not on a Mac.
+Substitute android for ios as needed.
+
+To run successfully, you may also need another command to add hooks:
+
+```
+$ ionic hooks add
+$ ionic run android
+```
+
 
